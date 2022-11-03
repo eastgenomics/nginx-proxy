@@ -10,7 +10,7 @@ Any other docker containers that spun up will need to be in the same network
 ```
 networks:
   default:
-    name: nginx_default
+    name: <network name>
     external: true
 ```
 and have environments `VIRTUAL_HOST` and `VIRTUAL_PATH`
